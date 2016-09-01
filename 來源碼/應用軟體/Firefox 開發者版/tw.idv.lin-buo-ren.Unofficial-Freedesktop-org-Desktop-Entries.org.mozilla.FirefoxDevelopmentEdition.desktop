@@ -1,0 +1,21 @@
+# Firefox 開發者版適用的 Freedesktop.org 桌面項目(desktop entry)
+# 作者：林博仁 <Buo.Ren.Lin@gmail.com>
+# 本作品為「非官方 Freedesktop.org 桌面項目」專案的一部分，位於 https://github.com/Lin-Buo-Ren/Unofficial-Freedesktop.org-Desktop-Entries
+# 注意事項請參考如上專案的說明文件
+[Desktop Entry]
+Version=1.0
+X-OriginalLocale=zh_TW
+Type=Application
+Name=Firefox 開發者版
+Name[en]=Firefox Developer Edition
+GenericName=Web 瀏覽器
+GenericName[en]=Web Browser
+Comment=瀏覽全球資訊網(World Wide Web)上的網站的瀏覽器
+Comment[en]=A browser to browse sites on the World Wide Web
+Icon=/home/林博仁/.local/share/icons/hicolor/Firefox-Developer-Edition.png
+MimeType=text/html;application/xhtml+xml;
+Exec="/home/林博仁/軟體/Firefox 開發者版/firefox" --new-instance --ProfileManager %u
+Terminal=false
+Categories=WebBrowser;GTK;Network;
+Keywords=瀏覽器;Web;WWW;Browser;World Wide Web;Mozilla;
+
